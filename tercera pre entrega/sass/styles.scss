@@ -1,0 +1,85 @@
+
+@media (min-width: 992px) {
+
+    #navbarNav{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+
+
+
+.logo-rotated{
+    transform : rotate(35deg);
+}
+
+
+.img-carrito{
+    width: 100px;
+    height: 130px;
+}
+
+
+.producto {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border:  2px dotted black;
+    
+    &:hover{
+
+        background-color: #999797;
+        border:  2px solid black;
+        
+    }
+}
+
+
+.card{
+
+    &:hover{
+
+        background-color: #999797;
+        border:  2px solid black;
+        
+    }
+
+}
+
+
+
+
+
+#infoContacto{
+    margin-top: 90px;
+}
+
+
+#acercaTexto{
+
+    margin-bottom:50px;
+
+    @media (min-width: 992px) {
+        display: flex;
+        justify-content: center;
+
+    }
+
+}
+
+#aboutusContainer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+.icono{
+    width: 20px;
+    height: 20px;
+}
